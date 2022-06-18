@@ -1,1 +1,1 @@
-.post__timeago {content:url('https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.7/jquery.timeago.min.js');}
+.post_timeago {content:url('https://cdnjs.cloudflare.com/ajax/libs/jquery-timeago/1.6.7/jquery.timeago.min.js');color:#000000;font-size:17px}
