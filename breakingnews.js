@@ -6,7 +6,7 @@
  *     scrolling_speed
  *     info_text
  *     close_button
- *     WWW.S1BRASIL.COM
+ *     WWW.SPRESSNEWS.COM
  */
 var entries; var feed;
 var feed_url = blog_url.match(/\/$/) ? blog_url : blog_url+"/";
@@ -71,7 +71,7 @@ function recent_post_content(){
         s += "<a href='"+recent_post_entries.href+"' ";
         s += "onmouseover='this.parentNode.stop()' onmouseout='this.parentNode.start()'";
         s += ">" + recent_post_entries.title + "</a>";
-        if(i != latest_post-1){s += "  ";}
+        if(i != latest_post-1){s += " | ";}
     }
     s += "</marquee>";
     s += "</div>";
